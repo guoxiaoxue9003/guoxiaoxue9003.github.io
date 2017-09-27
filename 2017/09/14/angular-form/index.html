@@ -3,14 +3,18 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Hexo</title>
+  <title>angular-form | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="#Forms控件(input, select, textarea)是用户输入数据的一种方法。表单用来把相关的控件组织在一起。表单和控制器提供了验证服务， 以至于用户在表单提交到后台之前的无效输入被提醒，这种方式验证比起单独在serve端验证的方式提供了更好的用户体验，因为用户可以及时得到反馈纠正错误。请记住，虽然客户端验证在良好的用户体验方面扮演了重要的角色，但它是可以被绕过的，因此不能完全被信任">
+<meta property="og:type" content="article">
+<meta property="og:title" content="angular-form">
+<meta property="og:url" content="http://yoursite.com/2017/09/14/angular-form/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="#Forms控件(input, select, textarea)是用户输入数据的一种方法。表单用来把相关的控件组织在一起。表单和控制器提供了验证服务， 以至于用户在表单提交到后台之前的无效输入被提醒，这种方式验证比起单独在serve端验证的方式提供了更好的用户体验，因为用户可以及时得到反馈纠正错误。请记住，虽然客户端验证在良好的用户体验方面扮演了重要的角色，但它是可以被绕过的，因此不能完全被信任">
+<meta property="og:updated_time" content="2017-09-25T13:36:34.013Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="angular-form">
+<meta name="twitter:description" content="#Forms控件(input, select, textarea)是用户输入数据的一种方法。表单用来把相关的控件组织在一起。表单和控制器提供了验证服务， 以至于用户在表单提交到后台之前的无效输入被提醒，这种方式验证比起单独在serve端验证的方式提供了更好的用户体验，因为用户可以及时得到反馈纠正错误。请记住，虽然客户端验证在良好的用户体验方面扮演了重要的角色，但它是可以被绕过的，因此不能完全被信任">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -59,9 +63,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-angular-form" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-angular-form" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2017/09/14/angular-form/" class="article-date">
   <time datetime="2017-09-14T12:09:42.000Z" itemprop="datePublished">2017-09-14</time>
@@ -74,8 +76,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/09/14/angular-form/">angular-form</a>
+    <h1 class="article-title" itemprop="name">
+      angular-form
     </h1>
   
 
@@ -138,157 +140,19 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-checkiohome" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/09/11/checkiohome/" class="article-date">
-  <time datetime="2017-09-11T11:43:57.000Z" itemprop="datePublished">2017-09-11</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/09/11/checkiohome/">checkiohome</a>
-    </h1>
+    <a href="/2017/09/11/checkiohome/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">checkiohome</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="checkio-home"><a href="#checkio-home" class="headerlink" title="checkio-home"></a>checkio-home</h1><h2 id="Non-unique-Elements"><a href="#Non-unique-Elements" class="headerlink" title="Non-unique Elements"></a>Non-unique Elements</h2><h3 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h3><p>给出一个含有整数（X）的非空列表。<br>返回在此列表中的非唯一元素的列表。<br>不能改变列表的顺序。   </p>
-<h3 id="问题分析"><a href="#问题分析" class="headerlink" title="问题分析"></a>问题分析</h3><p>采用双重循环，从前到后，找到重复的元素,把重复元素利用javascript的push函数，push到一个新数组中。</p>
-<h3 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line">function fun(arr) &#123;</div><div class="line">    let refer = [];</div><div class="line">    for(let j = 0; j &lt; data.length; j ++) &#123;</div><div class="line">        var flag = false;</div><div class="line">        for(let i= 0; i &lt; data.length; i++) &#123;</div><div class="line">            if(i !== j &amp;&amp; data[j] === data[i]) &#123;</div><div class="line">                flag = true;</div><div class="line">                break;</div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line">        if(flag) &#123;</div><div class="line">            refer.push(data[j]);</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line">    return refer;</div><div class="line">&#125;</div><div class="line">`</div></pre></td></tr></table></figure>
-<h2 id="Median"><a href="#Median" class="headerlink" title="Median"></a>Median</h2><h3 id="问题描述-1"><a href="#问题描述-1" class="headerlink" title="问题描述"></a>问题描述</h3><p>给出一个整数列表<br>返回列表的中位数（在列表有序的前提下，如果列表长度为奇数则，列表中间那个数据就是列表数据的中位数，如果列表数据的个数是偶数，则列表中间那2个数据的算术平均值就是列表数据的中位数）</p>
-<h3 id="问题分析-1"><a href="#问题分析-1" class="headerlink" title="问题分析"></a>问题分析</h3><p>利用JavaScript的排序函数进行排序，再找出中位数。<br>注意： sort函数的参数必须是一个函数，如果不写参数，排序则按照ascii编码排序，在排序时特别注意如果不是按照ascii编码排序，要写排序函数。</p>
-<h3 id="代码实现-1"><a href="#代码实现-1" class="headerlink" title="代码实现"></a>代码实现</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">function fun(data) &#123;</div><div class="line">    let num = 0;</div><div class="line">    function sortNumber(a,b)</div><div class="line">    &#123;</div><div class="line">        return a - b</div><div class="line">    &#125;</div><div class="line">    data.sort(sortNumber);</div><div class="line">    if(data.length % 2 != 0) &#123;</div><div class="line">        num = data[Math.floor(data.length / 2)];</div><div class="line">    &#125;</div><div class="line">    else &#123;</div><div class="line">        num = (data[data.length / 2] + data[Math.floor((data.length - 1) / 2)]) / 2;</div><div class="line">    &#125;</div><div class="line">   </div><div class="line">    return num;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/09/11/checkiohome/" data-id="cj833l1ef0000xyqommam4agm" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-  
-    <article id="post-qlcode1-6" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/09/10/qlcode1-6/" class="article-date">
-  <time datetime="2017-09-10T10:06:55.000Z" itemprop="datePublished">2017-09-10</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/09/10/qlcode1-6/">qlcode1-6</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="www-qlcode-com-总结"><a href="#www-qlcode-com-总结" class="headerlink" title="www.qlcode.com 总结"></a>www.qlcode.com 总结</h1><h2 id="访客统计"><a href="#访客统计" class="headerlink" title="访客统计"></a>访客统计</h2><h3 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h3><p>给出某购物网站的访问日志，统计当天该网站的方位用户，其中：</p>
-<ol>
-<li>日志文件的每一行代表一次访问行为</li>
-<li>日志文件格式为： 用户访问量 用户的id 用户的行为</li>
-<li>相同用户id算一个用户</li>
-</ol>
-<h3 id="问题分析"><a href="#问题分析" class="headerlink" title="问题分析"></a>问题分析</h3><p>Linux系统中的wc(Word Count)命令的功能为统计指定文件中的字节数、字数、行数，并将统计结果显示输出。<br>cat命令的用途是连接文件或标准输入并打印。这个命令常用来显示文件内容，或者将几个文件连接起来显示，或者从标准输入读取内容并显示，它常与重定向符号配合使用。<br>cut是一个选取命令，就是将一段数据经过分析，取出我们想要的。一般来说，选取信息通常是针对“行”来进行分析的，并不是整篇信息分析的.   -d : 自定义分隔符，默认为制表符。  -f ： 与-d一起使用显示制定哪个区域<br>sort是一个将文件的每一行作为一个单位，相互比较，比较原则是从首字符向后，依次按ASCII码值进行比较，最后将他们按升序输出   -u : 就是在输出行中去除重复行<br>wc的功能为统计指定文件中的字节数、字数、行数，并将统计结果显示输出.   -l : 统计行数</p>
-<h3 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">cat uv.txt |cut -d &quot; &quot; -f 2 | sort -u | wc -l</div></pre></td></tr></table></figure>
-<hr>
-<h2 id="码之初"><a href="#码之初" class="headerlink" title="码之初"></a>码之初</h2><h3 id="题目描述-1"><a href="#题目描述-1" class="headerlink" title="题目描述"></a>题目描述</h3><p>第2333个能被2或者被3整除的正整数是多少?</p>
-<h3 id="问题分析-1"><a href="#问题分析-1" class="headerlink" title="问题分析"></a>问题分析</h3><p>用js代码遍历实现</p>
-<h3 id="代码实现-1"><a href="#代码实现-1" class="headerlink" title="代码实现"></a>代码实现</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">function f (num) &#123;</div><div class="line">    let count = 0;</div><div class="line">    let result=2;</div><div class="line">    for(let i = 2; count &lt; num; i ++) &#123;</div><div class="line">        if(i % 2 === 0 || i % 3 === 0)&#123;</div><div class="line">            count ++;</div><div class="line">            result = i;</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line">    return result;</div><div class="line">&#125;</div><div class="line"></div><div class="line">f(2333);</div></pre></td></tr></table></figure>
-<hr>
-<h2 id="正则表达式"><a href="#正则表达式" class="headerlink" title="正则表达式"></a>正则表达式</h2><h3 id="题目描述-2"><a href="#题目描述-2" class="headerlink" title="题目描述"></a>题目描述</h3><p>写一个正则表达式来匹配这些符合要求的身份证号<br>出生年份在1985-1995(不包括95包括85)的男性用户<br><a href="“https://zhidao.baidu.com/question/228696590.html”">省份证规则</a></p>
-<h3 id="问题分析-2"><a href="#问题分析-2" class="headerlink" title="问题分析"></a>问题分析</h3><p>从问题描述和身份证规则首先</p>
-<ol>
-<li>匹配身份证第9和10位数字，第9位数字为8或9</li>
-<li>此时，不能单独的匹配第10为数字为0-9.而应该结合第9位数字，当9位为8时第十位为5-9，当第9位为9时第十位为0-5</li>
-<li>在匹配男性公民时，根据规则当第17位是奇数时为男性。</li>
-</ol>
-<h3 id="代码实现-2"><a href="#代码实现-2" class="headerlink" title="代码实现"></a>代码实现</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">\d&#123;6&#125;19(8[5-9] | 9[0-4])\d&#123;6&#125;[13579][\dX]</div></pre></td></tr></table></figure>
-<h2 id="Get-amp-Post"><a href="#Get-amp-Post" class="headerlink" title="Get&amp;Post"></a>Get&amp;Post</h2><h3 id="题目描述-3"><a href="#题目描述-3" class="headerlink" title="题目描述"></a>题目描述</h3><p>获取www.qlcode.com的IP地址</p>
-<h3 id="问题分析-3"><a href="#问题分析-3" class="headerlink" title="问题分析"></a>问题分析</h3><p>简单的通过ping命令就可以获取数据包找到该网站的地址</p>
-<h3 id="代码实现-3"><a href="#代码实现-3" class="headerlink" title="代码实现"></a>代码实现</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ping www.qlcode.com</div></pre></td></tr></table></figure>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/09/10/qlcode1-6/" data-id="cj833l1ej0002xyqoa94b0wxk" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/09/10/hello-world/" class="article-date">
-  <time datetime="2017-09-10T09:46:14.525Z" itemprop="datePublished">2017-09-10</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/09/10/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/09/10/hello-world/" data-id="cj833l1ei0001xyqoxtjhrngr" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
 
 </section>
         
